@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maya's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">Maya<span>Menariya</span></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div id="darkmode-toggle" class="btn">
+            <div class="btn__indicator">
+                <div class="btn__icon-container">
+                    <i class="btn__icon fa-solid"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Maya</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+            <p>Hello! I'm a passionate student with a deep love for coding and technology.
+                I have hands-on experience with languages and frameworks such as HTML, CSS, and
+                JavaScript. My goal is to become a proficient Full Stack Developer. I am also an
+                enthusiast in Artificial Intelligence and Machine Learning, constantly exploring and learning about the
+                latest advancements in the field. I am driven by curiosity and a desire to create impactful solutions
+                through code.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/maya-menariya-339a67320" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/mayamenariya" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/your_instagram_handle" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://twitter.com/your_twitter_handle" target="_blank"><i class='bx bxl-twitter'></i></a>
+            </div>
+            <div class="btn-group">
+                <a href="https://docs.google.com/document/d/1dP2l5u_GVR3v8Fo454VT9ZqOTcIarpeKJxOhyGbnTfc/edit?usp=sharing" download class="btn">Download CV</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="maya.jpg" alt="Personal Picture" width="300"> <!-- Adjusted width for better display -->
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+        <ul>
+            <li><a href="https://mayamenariya.github.io/Memory_Game/" target="_blank">Memory Game</a></li>
+            <li><a href="https://mayamenariya.github.io/Calculator/" target="_blank">Calculator</a></li>
+        </ul>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022</div>
+                <div class="timeline-content">
+                    <h3>High School</h3>
+                    <p>Class 12th || Govt Sr Sec School, Suwaniya || RBSE Board || Year of Passing: 2022 || Percentage: 55.60%</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2023</div>
+                <div class="timeline-content">
+                    <h3>University</h3>
+                    <p>Bachelor of Arts || Mohan Lal Sukhadia University, Udaipur || Maharana Partap P.G. College Chittorgarh || Graduation Year: 2024</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2023</div>
+                <div class="timeline-content">
+                    <h3>Diploma</h3>
+                    <p>Software Programming || Navgurukul || Duration: 15 months (2024) || During this Diploma, I enhanced my problem-solving skills and deepened my understanding of the language.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="https://formspree.io/f/xqazzoao" method="POST" id="contact-form">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" id="name" name="name" autocomplete="off" required />
+                </div>
+                <div class="input-box">
+                    <input type="email" placeholder="Email" id="email" autocomplete="off" required name="email" />
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number" id="phone" name="phone" autocomplete="off" required />
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Subject" id="subject" autocomplete="off" name="subject" required />
+                </div>
+            </div>
+            <div class="input-group-2">
+                <textarea id="message" cols="30" rows="10" placeholder="Your Message" name="textarea" autocomplete="off" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/maya-menariya-339a67320" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/mayamenariya" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.instagram.com/your_instagram_handle" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="https://twitter.com/your_twitter_handle" target="_blank"><i class='bx bxl-twitter'></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#home">FAQ</a></li>
+            <li><a href="#home">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p class="copyright">
+            <i class='bx bx-copyright'></i> | Created By Maya Menariya | All Rights Reserved | 2024
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
